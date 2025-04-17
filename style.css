@@ -1,0 +1,160 @@
+body {
+    background-image: url('img bg.jpeg'); /* Path to your background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+#home {
+    flex-direction: column;
+    align-items: center;
+  }
+    #home .content {
+        flex-direction: column;
+        align-items: center;
+    }
+.main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(30, 30, 30, 0.8); /* Darker grey background with 80% opacity */
+    padding: 10px 20px;
+    border-radius: 15px;
+    
+}
+
+.navbar .logo {
+    color: #ffbfbf;
+}
+
+.navbar .menu ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+.navbar .menu ul li {
+    display: inline; /* Display list items in a row */
+    margin: 0 15px; /* Space between menu items */
+}
+
+.navbar .menu ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Padding for clickable area */
+    transition: all 0.2s ease; /* Smooth transition for hover effect */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.navbar .menu ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+    color: #fff; /* Keep text color white */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6); /* Glow effect */
+}
+html {
+    scroll-behavior: smooth;
+}
+.content {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between text and image */
+    align-items: center; /* Center items vertically */
+    margin: 40px 0; /* Margin for spacing */
+    color: white;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 4em; /* Increase the font size for the main heading */
+    margin-bottom: 10px; /* Space below the heading */
+    text-align: center; /* Center the heading */
+    color: white; /* White font color */
+}
+
+
+.text-container {
+    max-width: 60%; /* Limit the width of the text container */
+}
+
+.profile-photo {
+    width: 300px; /* Set the width for the enlarged profile photo */
+    height: 300px; /* Set the height to the same value as width */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.profile-section .profile-photo {
+    width: 150px; /* Set width */
+    height: 150px; /* Set height */
+    border-radius: 50%; /* Circular image */
+}
+.text-container button {
+    margin-top: 10px; /* Space above the button */
+}
+
+.par {
+    margin: 20px 0;
+}
+
+.section {
+    margin: 40px 20px;
+    padding: 20px;
+    background-color: rgba(30, 30, 30, 0.6); /* Darker grey background with 60% opacity */
+    border-radius: 15px; /* More pronounced rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: shadow for better appearance */
+    color: white; /* White font color */
+}
+
+.skills-images {
+    display: flex; /* Use flexbox to align images in a row */
+    justify-content: center; /* Center the images */
+    gap: 10px; /* Space between images */
+    margin-top: 20px; /* Space above the images */
+}
+
+.section-photo {
+    width: 300px; /* Set a fixed width for the images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better appearance */
+}
+
+/* Profile Section Styling */
+.profile-section {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+    background-color: rgba(255, 255, 255, 0.6); /* Light background */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Padding */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow */
+}
+
+.profile-section .profile-photo {
+    width: 150px; /* Set width */
+    height: 150px; /* Set height */
+}
+
+.profile-info {
+    margin-left: 20px; /* Space between image and text */
+    color: black; /* Text color */
+}
+
+.profile-info h2 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5em; /* Font size for name */
+}
+
+.profile-info p {
+    margin: 5px 0; /* Margin for description */
+}
